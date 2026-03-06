@@ -412,14 +412,14 @@ export default function Dashboard() {
           {ANOS.map(a => <option key={a} value={a}>{a}</option>)}
         </FilterSelect>
 
-        <FilterSelect label="Campanha" value={filtroCampanha} onChange={setFiltroCampanha}>
-          <option value="todas">Todas as campanhas</option>
-          {CAMPANHAS.map(c => <option key={c} value={c}>{c}</option>)}
-        </FilterSelect>
-
         <FilterSelect label="Mes" value={filtroMes} onChange={setFiltroMes}>
           <option value="todos">Todos os meses</option>
           {MESES.map(m => <option key={m} value={m}>{m}</option>)}
+        </FilterSelect>
+
+        <FilterSelect label="Campanha" value={filtroCampanha} onChange={setFiltroCampanha}>
+          <option value="todas">Todas as campanhas</option>
+          {CAMPANHAS.map(c => <option key={c} value={c}>{c}</option>)}
         </FilterSelect>
 
       </div>

@@ -59,12 +59,47 @@ const DADOS_BRUTOS = [
   { ano: 2025, mes: 'Marco',     campanha: 'Campanha A', impressoes: 285000, cliques: 5415, conversoes: 150, gasto: 20, receita: 10800 },
   { ano: 2025, mes: 'Marco',     campanha: 'Campanha B', impressoes: 305000, cliques: 3660, conversoes: 100, gasto: 25, receita: 1400 },
   { ano: 2025, mes: 'Marco',     campanha: 'Campanha C', impressoes: 12200, cliques: 3172, conversoes: 100, gasto: 20, receita: 158 },
-  { ano: 2025, mes: 'Abril',     campanha: 'Campanha A', impressoes: 36000, cliques: 7200, conversoes: 144, gasto: 30, receita: 14400 },
-  { ano: 2025, mes: 'Abril',     campanha: 'Campanha B', impressoes: 340000, cliques: 4420, conversoes: 147, gasto: 300, receita: 17 },
-  { ano: 2025, mes: 'Abril',     campanha: 'Campanha C', impressoes: 140000, cliques: 3780, conversoes: 189, gasto: 8000, receita: 1 },
+  { ano: 2025, mes: 'Abril',     campanha: 'Campanha A', impressoes: 258000, cliques: 5418, conversoes: 155, gasto: 2979, receita: 15500 },
+  { ano: 2025, mes: 'Abril',     campanha: 'Campanha B', impressoes: 240000, cliques: 3840, conversoes: 128, gasto: 1920, receita: 11264 },
+  { ano: 2025, mes: 'Abril',     campanha: 'Campanha C', impressoes:  98000, cliques: 2744, conversoes: 137, gasto: 1921, receita: 10963 },
+  { ano: 2025, mes: 'Maio',     campanha: 'Campanha A', impressoes: 258000, cliques: 5160, conversoes: 148, gasto: 2838, receita: 14763 },
+  { ano: 2025, mes: 'Maio',     campanha: 'Campanha B', impressoes: 243000, cliques: 3888, conversoes: 130, gasto: 1944, receita: 11664 },
+  { ano: 2025, mes: 'Maio',     campanha: 'Campanha C', impressoes:  96000, cliques: 2688, conversoes: 134, gasto: 1882, receita: 10720 },
+  { ano: 2025, mes: 'Junho',    campanha: 'Campanha A', impressoes: 270000, cliques: 5940, conversoes: 170, gasto: 3267, receita: 17001 },
+  { ano: 2025, mes: 'Junho',    campanha: 'Campanha B', impressoes: 252000, cliques: 4284, conversoes: 143, gasto: 2142, receita: 13019 },
+  { ano: 2025, mes: 'Junho',    campanha: 'Campanha C', impressoes: 102000, cliques: 3162, conversoes: 158, gasto: 2213, receita: 13035 },
+  { ano: 2025, mes: 'Julho',    campanha: 'Campanha A', impressoes: 278000, cliques: 6672, conversoes: 191, gasto: 3670, receita: 19432 },
+  { ano: 2025, mes: 'Julho',    campanha: 'Campanha B', impressoes: 260000, cliques: 4940, conversoes: 165, gasto: 2470, receita: 14850 },
+  { ano: 2025, mes: 'Julho',    campanha: 'Campanha C', impressoes: 107000, cliques: 3531, conversoes: 176, gasto: 2473, receita: 15136 },
+  { ano: 2025, mes: 'Agosto',   campanha: 'Campanha A', impressoes: 262000, cliques: 5240, conversoes: 144, gasto: 2882, receita: 14265 },
+  { ano: 2025, mes: 'Agosto',   campanha: 'Campanha B', impressoes: 246000, cliques: 3936, conversoes: 131, gasto: 1968, receita: 11298 },
+  { ano: 2025, mes: 'Agosto',   campanha: 'Campanha C', impressoes:  99000, cliques: 2772, conversoes: 138, gasto: 1940, receita: 10626 },
+  { ano: 2025, mes: 'Setembro', campanha: 'Campanha A', impressoes: 284000, cliques: 6816, conversoes: 195, gasto: 3749, receita: 19500 },
+  { ano: 2025, mes: 'Setembro', campanha: 'Campanha B', impressoes: 265000, cliques: 5035, conversoes: 168, gasto: 2518, receita: 14868 },
+  { ano: 2025, mes: 'Setembro', campanha: 'Campanha C', impressoes: 109000, cliques: 3597, conversoes: 180, gasto: 2518, receita: 15120 },
+  { ano: 2025, mes: 'Outubro',  campanha: 'Campanha A', impressoes: 298000, cliques: 7748, conversoes: 221, gasto: 4262, receita: 22320 },
+  { ano: 2025, mes: 'Outubro',  campanha: 'Campanha B', impressoes: 278000, cliques: 5838, conversoes: 194, gasto: 2919, receita: 17454 },
+  { ano: 2025, mes: 'Outubro',  campanha: 'Campanha C', impressoes: 116000, cliques: 4060, conversoes: 203, gasto: 2842, receita: 18067 },
+  { ano: 2025, mes: 'Novembro', campanha: 'Campanha A', impressoes: 315000, cliques: 9135, conversoes: 261, gasto: 5023, receita: 26100 },
+  { ano: 2025, mes: 'Novembro', campanha: 'Campanha B', impressoes: 295000, cliques: 6785, conversoes: 226, gasto: 3393, receita: 20340 },
+  { ano: 2025, mes: 'Novembro', campanha: 'Campanha C', impressoes: 124000, cliques: 4960, conversoes: 248, gasto: 3472, receita: 22320 },
+  { ano: 2025, mes: 'Dezembro', campanha: 'Campanha A', impressoes: 332000, cliques: 10624, conversoes: 303, gasto: 5844, receita: 30300 },
+  { ano: 2025, mes: 'Dezembro', campanha: 'Campanha B', impressoes: 310000, cliques: 7750,  conversoes: 258, gasto: 3875, receita: 23736 },
+  { ano: 2025, mes: 'Dezembro', campanha: 'Campanha C', impressoes: 134000, cliques: 5762,  conversoes: 288, gasto: 4033, receita: 26352 },
+
+  // ── 2026 ──────────────────────────────────────────────────────────────────
+  { ano: 2026, mes: 'Janeiro',  campanha: 'Campanha A', impressoes: 285000, cliques: 6270,  conversoes: 179, gasto: 3448, receita: 17543 },
+  { ano: 2026, mes: 'Janeiro',  campanha: 'Campanha B', impressoes: 268000, cliques: 5092,  conversoes: 170, gasto: 2546, receita: 15282 },
+  { ano: 2026, mes: 'Janeiro',  campanha: 'Campanha C', impressoes: 114000, cliques: 3534,  conversoes: 177, gasto: 2474, receita: 15753 },
+  { ano: 2026, mes: 'Fevereiro',campanha: 'Campanha A', impressoes: 292000, cliques: 6716,  conversoes: 192, gasto: 3693, receita: 18816 },
+  { ano: 2026, mes: 'Fevereiro',campanha: 'Campanha B', impressoes: 274000, cliques: 5480,  conversoes: 183, gasto: 2740, receita: 16440 },
+  { ano: 2026, mes: 'Fevereiro',campanha: 'Campanha C', impressoes: 118000, cliques: 3894,  conversoes: 195, gasto: 2726, receita: 17355 },
+  { ano: 2026, mes: 'Marco',    campanha: 'Campanha A', impressoes: 302000, cliques: 7550,  conversoes: 216, gasto: 4152, receita: 21168 },
+  { ano: 2026, mes: 'Marco',    campanha: 'Campanha B', impressoes: 282000, cliques: 6204,  conversoes: 207, gasto: 3102, receita: 18423 },
+  { ano: 2026, mes: 'Marco',    campanha: 'Campanha C', impressoes: 122000, cliques: 4270,  conversoes: 214, gasto: 2989, receita: 19046 },
 ]
 
-const ANOS      = [2024, 2025]
+const ANOS      = [2024, 2025, 2026]
 const MESES     = ['Janeiro', 'Fevereiro', 'Marco', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro','Outubro','Novembro','Dezembro']
 const CAMPANHAS = ['Campanha A', 'Campanha B', 'Campanha C']
 
@@ -387,9 +422,6 @@ export default function Dashboard() {
           {MESES.map(m => <option key={m} value={m}>{m}</option>)}
         </FilterSelect>
 
-        <FilterSelect label="Metrica exibida nos graficos" value={filtroMetrica} onChange={setFiltroMetrica}>
-          {METRICAS.map(m => <option key={m.key} value={m.key}>{m.label}</option>)}
-        </FilterSelect>
       </div>
 
       {/* ── Cards ────────────────────────────────────────────────────────── */}
@@ -421,6 +453,13 @@ export default function Dashboard() {
             />
           </div>
         )}
+      </div>
+
+      {/* ── Filtro de métrica ────────────────────────────────────────────── */}
+      <div style={{ ...cardBg, padding: '16px 24px', marginBottom: 32, display: 'inline-flex' }}>
+        <FilterSelect label="Metrica exibida nos graficos" value={filtroMetrica} onChange={setFiltroMetrica}>
+          {METRICAS.map(m => <option key={m.key} value={m.key}>{m.label}</option>)}
+        </FilterSelect>
       </div>
 
       {/* ── Gráfico de linha ─────────────────────────────────────────────── */}

@@ -30,7 +30,7 @@ const DADOS_BRUTOS = [
   { ano: 2024, mes: 'Junho',    campanha: 'Campanha A', impressoes: 240000, cliques: 4080, conversoes:  82, gasto: 2448, receita:  8200 },
   { ano: 2024, mes: 'Junho',    campanha: 'Campanha B', impressoes: 218000, cliques: 26160, conversoes:  87, gasto: 1831, receita:  8700 },
   { ano: 2024, mes: 'Junho',    campanha: 'Campanha C', impressoes:  88000, cliques: 2112, conversoes: 105, gasto: 1690, receita: 1050 },
-  { ano: 2024, mes: 'Julho',    campanha: 'Campanha A', impressoes: 23800, cliques: 40461, conversoes:  81, gasto: 2428, receita:  8100 },
+  { ano: 2024, mes: 'Julho',    campanha: 'Campanha A', impressoes: 23800, cliques: 4046, conversoes:  81, gasto: 2428, receita:  8100 },
   { ano: 2024, mes: 'Julho',    campanha: 'Campanha B', impressoes: 225000, cliques: 2700, conversoes:  90, gasto: 1890, receita:  900 },
   { ano: 2024, mes: 'Julho',    campanha: 'Campanha C', impressoes:  90000, cliques: 2160, conversoes: 108, gasto: 1728, receita: 108 },
   { ano: 2024, mes: 'Agosto',   campanha: 'Campanha A', impressoes: 248000, cliques: 4216, conversoes:  84, gasto: 2530, receita:  8400 },

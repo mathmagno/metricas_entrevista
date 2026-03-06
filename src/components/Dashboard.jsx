@@ -455,12 +455,17 @@ export default function Dashboard() {
         )}
       </div>
 
-      {/* ── Filtro de métrica ────────────────────────────────────────────── */}
-      <div style={{ ...cardBg, padding: '16px 24px', marginBottom: 32, display: 'inline-flex' }}>
-        <FilterSelect label="Metrica exibida nos graficos" value={filtroMetrica} onChange={setFiltroMetrica}>
-          {METRICAS.map(m => <option key={m.key} value={m.key}>{m.label}</option>)}
-        </FilterSelect>
-      </div>
+      {/* ── Container: filtro de métrica + gráficos + tabela ────────────── */}
+      <div style={{ ...cardBg, padding: '24px', marginBottom: 32 }}>
+
+        {/* Filtro de métrica */}
+        <div style={{ marginBottom: 28 }}>
+          <FilterSelect label="Metrica exibida nos graficos" value={filtroMetrica} onChange={setFiltroMetrica}>
+            {METRICAS.map(m => <option key={m.key} value={m.key}>{m.label}</option>)}
+          </FilterSelect>
+        </div>
+
+        <div style={{ borderTop: '1px solid #2a2d3e', paddingTop: 28 }}>
 
       {/* ── Gráfico de linha ─────────────────────────────────────────────── */}
       <div style={{ marginBottom: 40 }}>
@@ -597,6 +602,9 @@ export default function Dashboard() {
           </div>
         )}
       </div>
+
+        </div>{/* fim borderTop */}
+      </div>{/* fim container geral */}
 
       <p style={{ textAlign: 'center', color: '#334155', fontSize: 12, marginTop: 8 }}>
         Dados fictícios criados para fins de estudo e apresentacao em entrevista.
